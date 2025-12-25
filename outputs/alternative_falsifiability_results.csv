@@ -1,0 +1,9 @@
+Test,p-value,Falsified,Interpretation
+Regime Transition Probability,1.0,True,Model falsified if p >= 0.05 (no regime difference)
+Eigenvalue Stability Index,0.0631411174597613,True,Model falsified if p >= 0.05 (equal variance)
+Information Flow Asymmetry,0.04964506638492635,False,Model falsified if p >= 0.05 (no entropy difference)
+Spectral Gap Sensitivity,0.2154896139149287,True,Model falsified if p >= 0.05 (no gap difference)
+Multivariate Discriminability,0.09750712384799343,True,Model falsified if p >= 0.05 (no multivariate difference)
+Entropy Production Rate,0.20625491974552462,True,Model falsified if p >= 0.05 (no difference in entropy change)
+Quaternion-Clifford Transition Marker,0.22180919146689898,True,Model falsified if p >= 0.05 (no algebraic difference)
+Absurdity Gap Component Analysis,,True,Model falsified if NO components show difference

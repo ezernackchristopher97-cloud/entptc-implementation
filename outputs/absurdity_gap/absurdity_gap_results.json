@@ -1,0 +1,36 @@
+{
+  "absurdity_gap": 0.5572770857014635,
+  "residuals": {
+    "control_frequency": {
+      "predicted": 0.42,
+      "observed": 0.25836948235900503,
+      "absolute_residual": 0.16163051764099495,
+      "relative_residual": 0.3848345657202655
+    },
+    "phase_winding": {
+      "predicted": 0.85,
+      "observed": 0.6272532353307074,
+      "absolute_residual": 0.22274676466929255,
+      "relative_residual": 0.26205501722716124
+    },
+    "trajectory_curvature": {
+      "predicted": 0.12,
+      "observed": 7.951663247756316e-05,
+      "absolute_residual": 0.11992048336752244,
+      "relative_residual": 0.9993373605632393
+    },
+    "spatial_coherence": {
+      "predicted": 0.75,
+      "observed": 0.6272532353307074,
+      "absolute_residual": 0.12274676466929257,
+      "relative_residual": 0.16366235287056846
+    }
+  },
+  "interpretation": "FAIR: Significant projection mismatch, some invariants lost",
+  "estimator_uncertainty": 0.15,
+  "gap_with_uncertainty": {
+    "value": 0.5572770857014635,
+    "lower": 0.473685522846244,
+    "upper": 0.640868648556683
+  }
+}

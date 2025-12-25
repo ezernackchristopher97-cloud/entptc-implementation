@@ -1,0 +1,17 @@
+STAGE B: Internal Frequency Inference - Summary
+================================================================================
+
+Grid cells analyzed: 2
+
+EntPTC Characteristic Frequency:
+ Mean: 0.4164 Hz
+ Std: 0.0499 Hz
+ Range: [0.3665, 0.4663] Hz
+
+Frequency band distribution:
+ Sub-delta: 2/2
+
+Key insight:
+These frequencies are MODALITY-AGNOSTIC - they emerge from toroidal
+geometry and dynamics, NOT from the recording modality. They should
+persist when projected into EEG/fMRI in Stage C.

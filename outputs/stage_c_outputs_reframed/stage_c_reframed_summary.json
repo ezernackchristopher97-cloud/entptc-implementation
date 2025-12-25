@@ -1,0 +1,13 @@
+{
+  "c1_gating_pac_mean": 1.5159950309538957,
+  "c1_gating_pac_std": 1.03202690740148,
+  "c2_organization_plv_mean": 0.5853670438775701,
+  "c2_organization_plv_std": 0.11176882692515375,
+  "c3_regime_timing_corr_mean": 0.00027236904164933487,
+  "c3_regime_timing_corr_std": 0.48296001913251874,
+  "c3_n_transitions_mean": 0.9666666666666667,
+  "c2_ablation_randomize_collapse_pct": 0.0,
+  "c3_ablation_randomize_collapse_pct": 0.0,
+  "c2_ablation_destroy_coherence_collapse_pct": -39.92170740015544,
+  "c3_ablation_destroy_coherence_collapse_pct": -367048.31551596854
+}

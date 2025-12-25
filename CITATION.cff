@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or reference this work, please cite it as below."
+type: software
+title: "EntPTC: Mathematical Model of Experience through Recursive Entropy and Quaternionic Filtering"
+authors:
+  - family-names: "Ezernack"
+    given-names: "Christopher"
+    affiliation: "University of Texas at Dallas"
+repository-code: "https://github.com/ezernackchristopher97-cloud/entptc-implementation"
+license: MIT
+version: "1.0.0"
+date-released: "2025-12-24"
+keywords:
+  - consciousness
+  - quaternions
+  - entropy
+  - Perron-Frobenius
+  - toroidal topology
+  - EEG analysis
+  - mathematical neuroscience
+abstract: >-
+  EntPTC (Entropic Progenitor Theory of Consciousness) provides a mathematical 
+  framework for modeling experience through recursive entropy dynamics and 
+  quaternionic filtering on toroidal manifolds. The implementation includes 
+  the Progenitor Matrix construction, Perron-Frobenius collapse analysis, 
+  entropy gradient computation, and empirical validation against EEG data.

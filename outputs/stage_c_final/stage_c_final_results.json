@@ -1,0 +1,30 @@
+{
+  "dataset": "sub-LTP448_ses-0_task-SpatialNav_eeg.mat",
+  "control_frequency_hz": 99.87723022632682,
+  "c1_gating": {
+    "control_frequency_hz": 99.87723022632682,
+    "gating_band_hz": [
+      0.14,
+      0.33
+    ],
+    "correlation_control_gamma": 0.016501068874060793,
+    "n_regime_transitions": 74,
+    "gating_strength": 1.0671898732572247e-12,
+    "pass": false
+  },
+  "c2_organization": {
+    "plv_baseline": 0.6272532353307074,
+    "plv_ablated": 0.523417651762609,
+    "plv_change": 0.10383558356809841,
+    "plv_change_pct": 16.55401323093265,
+    "pass": true
+  },
+  "c3_regime_timing": {
+    "n_transitions": 28,
+    "mean_dwell_time_sec": 20.344827586206897,
+    "std_dwell_time_sec": 5.713117767510652,
+    "cv_dwell_time": 0.2808142631488286,
+    "pass": true
+  },
+  "overall_pass": false
+}

@@ -1,0 +1,72 @@
+{
+  "dataset": "sub-LTP448_ses-0_task-SpatialNav_eeg.mat",
+  "duration_sec": 600.0,
+  "n_rois": 16,
+  "fs": 160.0,
+  "grid_size": 4,
+  "t3_verification": {
+    "theta1_coverage_pct": 99.99977736979992,
+    "theta1_circular_variance": 0.9955314453216318,
+    "theta2_coverage_pct": 99.99993323984128,
+    "theta2_circular_variance": 0.9665663026897063,
+    "theta3_coverage_pct": 99.99982890269497,
+    "theta3_circular_variance": 0.9987097433588051,
+    "theta1_theta2_coupling": 0.020685350785580457,
+    "theta1_theta3_coupling": 0.0001220912922344687,
+    "theta2_theta3_coupling": 0.03870170076514998
+  },
+  "t3_invariants": {
+    "theta1_phase_velocity": 0.010146145846135598,
+    "theta2_phase_velocity": 0.065712392914483,
+    "theta3_phase_velocity": 0.22919365670457054,
+    "theta1_phase_winding": 0.6272532353307074,
+    "theta2_phase_winding": 0.6764253468178523,
+    "theta3_phase_winding": 0.6721834389572706,
+    "theta1_trajectory_curvature": 7.951663247756316e-05,
+    "theta2_trajectory_curvature": 0.00618626879893828,
+    "theta3_trajectory_curvature": 0.009315272868046792
+  },
+  "r3_invariants": {
+    "trajectory_length": 21852.318317827063,
+    "r1_spatial_variance": 1.0000000000000002,
+    "r2_spatial_variance": 1.0,
+    "r3_spatial_variance": 1.0,
+    "mean_neighbor_distance": 1.2287673223719509,
+    "trajectory_alignment": 0.4813102944387106
+  },
+  "projection_type": "stereographic",
+  "normalization": "unit_variance",
+  "pac_results": {
+    "window_lengths": [
+      60,
+      120,
+      180,
+      240,
+      300
+    ],
+    "pac_values": [
+      8.752832888933634e-08,
+      6.255951633437441e-08,
+      5.0285004011942924e-08,
+      3.339031523774368e-08,
+      2.2633969298792734e-08
+    ],
+    "pac_null_values": [
+      7.701208868493002e-08,
+      5.0470687365798145e-08,
+      4.115228906878928e-08,
+      3.120649451504216e-08,
+      2.694031690242201e-08
+    ],
+    "cycles_per_window": [
+      8.4,
+      16.8,
+      25.200000000000003,
+      33.6,
+      42.00000000000001
+    ]
+  },
+  "plv": 0.6272532353307074,
+  "ppc": 0.5160839790192723,
+  "regime_transitions": 28
+}

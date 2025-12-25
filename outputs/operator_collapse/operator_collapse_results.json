@@ -1,0 +1,14 @@
+{
+  "progenitor_trace": 0.0,
+  "dominant_eigenvalue": 0.2858242658369985,
+  "spectral_gap": 0.17842085005429542,
+  "participation_ratio": 5.448583489551513e-32,
+  "collapse_rate_dimensionless": 0.6242326888145425,
+  "tau_control_seconds": 0.010012292068311765,
+  "f_control_hz": 99.87723022632682,
+  "von_neumann_entropy": 1.4707942072783255,
+  "entropy_normalized": 0.7073025030028849,
+  "n_regimes": 13751,
+  "mean_dwell_time_seconds": 0.04363319031343175,
+  "median_dwell_time_seconds": 0.01875
+}

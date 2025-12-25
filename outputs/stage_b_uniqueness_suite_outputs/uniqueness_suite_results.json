@@ -1,0 +1,47 @@
+{
+  "baseline_toroidal": {
+    "frequency_hz": 0.41642129839671105,
+    "std_hz": 0.04988887461572408
+  },
+  "u1_planar": {
+    "frequency_hz": 0.09606923734580945,
+    "std_hz": 0.024119603177179618,
+    "collapse_percent": 76.9297973673077,
+    "pass": true
+  },
+  "u2_cylindrical": {
+    "frequency_hz": 0.2063517316381214,
+    "std_hz": 0.07511277911227536,
+    "change_percent": 50.446403094027914,
+    "pass": true
+  },
+  "u3_random_adjacency": {
+    "frequency_hz": 0.13238440188820957,
+    "std_hz": 0.012904069499269576,
+    "collapse_percent": 68.209022353585,
+    "pass": true
+  },
+  "u4_phase_randomized": {
+    "frequency_hz": 0.2151564893221828,
+    "std_hz": 0.023072788544568092,
+    "collapse_percent": 48.33201612151687,
+    "pass": true
+  },
+  "u5_1f_matched": {
+    "frequency_hz": 0.2490080326623355,
+    "std_hz": 0.06545567107492324,
+    "collapse_percent": 40.202858590313106,
+    "pass": true
+  },
+  "u6_spatially_permuted": {
+    "frequency_hz": 0.23770147356095417,
+    "std_hz": 0.022033464477873962,
+    "collapse_percent": 42.91803169623094,
+    "pass": true
+  },
+  "graded_response": true,
+  "tests_passed": 6,
+  "total_tests": 6,
+  "verdict": "UNIQUENESS SUPPORTED",
+  "interpretation": "The candidate control timescale is EntPTC-specific (6/6 nulls failed, graded response confirmed)."
+}

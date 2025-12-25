@@ -1,0 +1,95 @@
+================================================================================
+STAGE C ANALYSIS - CORRECTED PROTOCOL
+================================================================================
+
+Loading sub-LTP448_ses-0_task-SpatialNav_eeg.mat...
+Data shape: (16, 96000)
+Sampling rate: 160.0 Hz
+Duration: 600.0 seconds
+Grid size: 4×4
+Adjacency: 64.0 edges
+
+================================================================================
+1. T³→R³ MAPPING
+================================================================================
+
+T³ Topology Verification:
+ theta1_coverage_pct: 100.000
+ theta1_circular_variance: 0.996
+ theta2_coverage_pct: 100.000
+ theta2_circular_variance: 0.967
+ theta3_coverage_pct: 100.000
+ theta3_circular_variance: 0.999
+ theta1_theta2_coupling: 0.021
+ theta1_theta3_coupling: 0.000
+ theta2_theta3_coupling: 0.039
+
+T³ Invariants:
+ theta1_phase_velocity: 0.010146
+ theta2_phase_velocity: 0.065712
+ theta3_phase_velocity: 0.229194
+ theta1_phase_winding: 0.627253
+ theta2_phase_winding: 0.676425
+ theta3_phase_winding: 0.672183
+ theta1_trajectory_curvature: 0.000080
+ theta2_trajectory_curvature: 0.006186
+ theta3_trajectory_curvature: 0.009315
+
+R³ Invariants:
+ trajectory_length: 21852.318318
+ r1_spatial_variance: 1.000000
+ r2_spatial_variance: 1.000000
+ r3_spatial_variance: 1.000000
+ mean_neighbor_distance: 1.228767
+ trajectory_alignment: 0.481310
+
+================================================================================
+2. FIXED PAC COMPUTATION
+================================================================================
+Data duration: 600.0 seconds
+Phase frequency: 0.14-0.33 Hz
+Amplitude frequency: 30-50 Hz
+Window lengths to test: [60, 120, 180, 240, 300] seconds
+
+--- Window length: 60s (8.4 cycles at 0.14 Hz) ---
+PAC: 0.000000
+PAC null: 0.000000 ± 0.000000
+Number of windows: 18
+Z-score: 0.19
+
+--- Window length: 120s (16.8 cycles at 0.14 Hz) ---
+PAC: 0.000000
+PAC null: 0.000000 ± 0.000000
+Number of windows: 8
+Z-score: 0.33
+
+--- Window length: 180s (25.2 cycles at 0.14 Hz) ---
+PAC: 0.000000
+PAC null: 0.000000 ± 0.000000
+Number of windows: 5
+Z-score: 0.31
+
+--- Window length: 240s (33.6 cycles at 0.14 Hz) ---
+PAC: 0.000000
+PAC null: 0.000000 ± 0.000000
+Number of windows: 3
+Z-score: 0.10
+
+--- Window length: 300s (42.0 cycles at 0.14 Hz) ---
+PAC: 0.000000
+PAC null: 0.000000 ± 0.000000
+Number of windows: 2
+Z-score: -0.36
+
+================================================================================
+3. ORGANIZATION METRICS
+================================================================================
+
+PLV: 0.627253
+PPC: 0.516084
+Regime transitions: 28 (with 15s minimum dwell)
+
+================================================================================
+STAGE C ANALYSIS COMPLETE
+================================================================================
+Results saved to /home/ubuntu/entptc-implementation/outputs/stage_c_corrected/stage_c_corrected_results.json

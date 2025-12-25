@@ -1,0 +1,195 @@
+{
+  "real_winding": {
+    "theta1_raw_winding": 0.6272532353307074,
+    "theta1_path_length": 974.0198550831713,
+    "theta1_angular_velocity": 0.010146145846135598,
+    "theta1_winding_per_path": 0.0006439840338543017,
+    "theta1_winding_per_velocity": 61.8218226566721,
+    "theta1_winding_per_time": 6.533887868028195e-06,
+    "theta2_raw_winding": 0.6764253468178523,
+    "theta2_path_length": 6308.324007397453,
+    "theta2_angular_velocity": 0.065712392914483,
+    "theta2_winding_per_path": 0.00010722742617922473,
+    "theta2_winding_per_velocity": 10.293725670114743,
+    "theta2_winding_per_time": 7.046097362685953e-06,
+    "theta3_raw_winding": 0.6721834389572706,
+    "theta3_path_length": 22002.36184998207,
+    "theta3_angular_velocity": 0.22919365670457054,
+    "theta3_winding_per_path": 3.055051287404472e-05,
+    "theta3_winding_per_velocity": 2.9328186841158077,
+    "theta3_winding_per_time": 7.001910822471561e-06
+  },
+  "surrogate_distributions": {
+    "theta1_raw_winding": {
+      "mean": 0.0869761536114146,
+      "std": 0.007468036574443039,
+      "min": 0.0714349561419994,
+      "max": 0.10448252475596603
+    },
+    "theta1_path_length": {
+      "mean": 976.8268831929483,
+      "std": 3.8245337837304403,
+      "min": 967.3882699614974,
+      "max": 984.8890358964522
+    },
+    "theta1_angular_velocity": {
+      "mean": 0.010175386026864327,
+      "std": 3.983930857332317e-05,
+      "min": 0.01007706611487096,
+      "max": 0.01025936765900116
+    },
+    "theta1_winding_per_path": {
+      "mean": 8.903423511187421e-05,
+      "std": 7.58163224046731e-06,
+      "min": 7.376794795074093e-05,
+      "max": 0.00010681093028791775
+    },
+    "theta1_winding_per_velocity": {
+      "mean": 8.54719745251062,
+      "std": 0.7278291063530701,
+      "min": 7.081649165120529,
+      "max": 10.25374239608233
+    },
+    "theta1_winding_per_time": {
+      "mean": 9.060016001189009e-07,
+      "std": 7.779204765044824e-08,
+      "min": 7.441141264791597e-07,
+      "max": 1.088359632874645e-06
+    },
+    "theta2_raw_winding": {
+      "mean": 0.026119964226525995,
+      "std": 0.002670237597698928,
+      "min": 0.01969768251945885,
+      "max": 0.03201374535513825
+    },
+    "theta2_path_length": {
+      "mean": 6449.486406534473,
+      "std": 13.129991304029803,
+      "min": 6423.603215997963,
+      "max": 6476.133942382576
+    },
+    "theta2_angular_velocity": {
+      "mean": 0.06718284988942043,
+      "std": 0.00013677216746038764,
+      "min": 0.06691323051279663,
+      "max": 0.06746043127931099
+    },
+    "theta2_winding_per_path": {
+      "mean": 4.05000705682096e-06,
+      "std": 4.148469375693814e-07,
+      "min": 3.0552279995195306e-06,
+      "max": 4.968874234365488e-06
+    },
+    "theta2_winding_per_velocity": {
+      "mean": 0.3887966268690338,
+      "std": 0.039824891100316145,
+      "min": 0.2932988322891575,
+      "max": 0.4770069569141165
+    },
+    "theta2_winding_per_time": {
+      "mean": 2.7208296069297886e-07,
+      "std": 2.781497497603047e-08,
+      "min": 2.0518419291102946e-07,
+      "max": 3.334765141160231e-07
+    },
+    "theta3_raw_winding": {
+      "mean": 0.01921496553057866,
+      "std": 0.0022333835436563485,
+      "min": 0.014742122397741836,
+      "max": 0.02432947547376379
+    },
+    "theta3_path_length": {
+      "mean": 22038.53894053413,
+      "std": 20.87828937135136,
+      "min": 21990.340663616516,
+      "max": 22076.718162311525
+    },
+    "theta3_angular_velocity": {
+      "mean": 0.22957050532332765,
+      "std": 0.00021748444641455814,
+      "min": 0.2290684347088669,
+      "max": 0.22996820969292936
+    },
+    "theta3_winding_per_path": {
+      "mean": 8.718711800822552e-07,
+      "std": 1.0125190357528821e-07,
+      "min": 6.691346315644973e-07,
+      "max": 1.1044812981511199e-06
+    },
+    "theta3_winding_per_velocity": {
+      "mean": 0.08369876138025828,
+      "std": 0.009720081487093654,
+      "min": 0.06423625546757063,
+      "max": 0.1060291000950018
+    },
+    "theta3_winding_per_time": {
+      "mean": 2.0015589094352753e-07,
+      "std": 2.3264411913086937e-08,
+      "min": 1.535637749764773e-07,
+      "max": 2.534320361850392e-07
+    }
+  },
+  "percentiles": {
+    "theta1_raw_winding": 100.0,
+    "theta1_path_length": 18.0,
+    "theta1_angular_velocity": 18.0,
+    "theta1_winding_per_path": 100.0,
+    "theta1_winding_per_velocity": 100.0,
+    "theta1_winding_per_time": 100.0,
+    "theta2_raw_winding": 100.0,
+    "theta2_path_length": 0.0,
+    "theta2_angular_velocity": 0.0,
+    "theta2_winding_per_path": 100.0,
+    "theta2_winding_per_velocity": 100.0,
+    "theta2_winding_per_time": 100.0,
+    "theta3_raw_winding": 100.0,
+    "theta3_path_length": 4.0,
+    "theta3_angular_velocity": 4.0,
+    "theta3_winding_per_path": 100.0,
+    "theta3_winding_per_velocity": 100.0,
+    "theta3_winding_per_time": 100.0
+  },
+  "effect_sizes": {
+    "theta1_raw_winding": 72.34526455965921,
+    "theta1_path_length": -0.7339530171541916,
+    "theta1_angular_velocity": -0.7339530171542238,
+    "theta1_winding_per_path": 73.19661270041001,
+    "theta1_winding_per_velocity": 73.19661269264759,
+    "theta1_winding_per_time": 72.34526455965921,
+    "theta2_raw_winding": 243.53839641525747,
+    "theta2_path_length": -10.751141860520104,
+    "theta2_angular_velocity": -10.751141860520047,
+    "theta2_winding_per_path": 248.71201828541345,
+    "theta2_winding_per_velocity": 248.7120182776113,
+    "theta2_winding_per_time": 243.53839641525744,
+    "theta3_raw_winding": 292.3673702536981,
+    "theta3_path_length": -1.7327612386531026,
+    "theta3_angular_velocity": -1.7327612386532865,
+    "theta3_winding_per_path": 293.1168762856317,
+    "theta3_winding_per_velocity": 293.11687628530865,
+    "theta3_winding_per_time": 292.3673702536981
+  },
+  "pass": {
+    "theta1_raw_winding": true,
+    "theta1_path_length": false,
+    "theta1_angular_velocity": false,
+    "theta1_winding_per_path": true,
+    "theta1_winding_per_velocity": true,
+    "theta1_winding_per_time": true,
+    "theta2_raw_winding": true,
+    "theta2_path_length": true,
+    "theta2_angular_velocity": true,
+    "theta2_winding_per_path": true,
+    "theta2_winding_per_velocity": true,
+    "theta2_winding_per_time": true,
+    "theta3_raw_winding": true,
+    "theta3_path_length": true,
+    "theta3_angular_velocity": true,
+    "theta3_winding_per_path": true,
+    "theta3_winding_per_velocity": true,
+    "theta3_winding_per_time": true
+  },
+  "overall_pass": true,
+  "n_pass_normalized": 9,
+  "n_total_normalized": 9
+}

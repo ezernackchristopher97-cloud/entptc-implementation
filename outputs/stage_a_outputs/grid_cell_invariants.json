@@ -1,0 +1,26 @@
+[
+  {
+    "cell_id": "rat11015_t5c1",
+    "grid_score": 0.3,
+    "grid_spacing": 16.51920240520265,
+    "mean_phase_velocity": 7.0235017437679454,
+    "std_phase_velocity": 4.9455674566271774,
+    "mean_curvature": 1.3188586882871711,
+    "std_curvature": 2.078703543751889,
+    "winding_number_x": 1.6546034317019007,
+    "winding_number_y": 2.8315515599203533,
+    "phase_entropy": 5.969240726304436
+  },
+  {
+    "cell_id": "cell1",
+    "grid_score": 0.7,
+    "grid_spacing": 21.27032961426901,
+    "mean_phase_velocity": 5.532989717440788,
+    "std_phase_velocity": 3.6164051118469187,
+    "mean_curvature": 1.0243128297820299,
+    "std_curvature": 1.8056892576719306,
+    "winding_number_x": -5.731507574302347,
+    "winding_number_y": 3.844153403639361,
+    "phase_entropy": 5.966768147691885
+  }
+]

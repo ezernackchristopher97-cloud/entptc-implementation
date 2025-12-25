@@ -1,0 +1,41 @@
+{
+  "1_eigenvalue_profile": {
+    "lambda_1": 0.2858242658369984,
+    "lambda_2": 0.10740341578270302,
+    "spectral_gap": 0.17842085005429537,
+    "participation_ratio": 5.448583489551517e-32,
+    "eigenvalue_decay_rate": 0.788470217539832
+  },
+  "2_spectral_gap_stability": {
+    "mean": 0.17431231000029015,
+    "std": 0.025094784271222918,
+    "cv": 0.14396449838328196
+  },
+  "3_entropy_flow": {
+    "von_neumann_entropy": 1.470794207278326,
+    "normalized_entropy": 0.7073025030028851,
+    "entropy_gradient": -0.0009532903223158082
+  },
+  "4_winding_coverage": {
+    "phase_winding_theta1": 0.009853795571031084,
+    "phase_winding_theta2": 0.0395766309406148,
+    "phase_winding_theta3": 0.002263208960184443,
+    "circular_variance_theta1": 0.9901462044289688,
+    "circular_variance_theta2": 0.9604233690593852,
+    "circular_variance_theta3": 0.9977367910398156
+  },
+  "5_regime_dwell": {
+    "mean_dwell_time_sec": 20.344827586206897,
+    "std_dwell_time_sec": 8.995308593617644,
+    "cv": 0.442142286804935
+  },
+  "6_path_curvature": {
+    "mean_curvature_theta1": 20363.572181695967,
+    "mean_curvature_theta2": 261449.30674641157,
+    "mean_curvature_theta3": 2739567.919640501
+  },
+  "7_graph_locality": {
+    "locality_correlation": -0.35805378621078005,
+    "long_range_plv": 0.4530324988988541
+  }
+}

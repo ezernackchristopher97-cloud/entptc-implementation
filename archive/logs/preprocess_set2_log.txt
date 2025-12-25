@@ -1,0 +1,229 @@
+================================================================================
+EDF TO MAT PREPROCESSING - DATASET SET 2
+================================================================================
+Input: /home/ubuntu/datasets/physionet_motor
+Output: /home/ubuntu/entptc-implementation/data/dataset_set_2
+Expected channels: 64
+Target ROIs: 16
+================================================================================
+
+Processing: /home/ubuntu/datasets/physionet_motor/S001/S001R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S001_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S001/S001R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S001_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S002/S002R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S002_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S002/S002R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S002_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S003/S003R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S003_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S003/S003R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S003_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S004/S004R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S004_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S004/S004R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S004_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S005/S005R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S005_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S005/S005R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S005_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S006/S006R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S006_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S006/S006R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S006_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S007/S007R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S007_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S007/S007R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S007_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S008/S008R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S008_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S008/S008R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S008_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S009/S009R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S009_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S009/S009R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S009_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S010/S010R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S010_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S010/S010R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S010_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S011/S011R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S011_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S011/S011R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S011_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S012/S012R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S012_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S012/S012R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S012_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S013/S013R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S013_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S013/S013R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S013_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S014/S014R01.edf
+ Channels: 64, Samples: 9600, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9600) (16 ROIs × 9600 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S014_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S014/S014R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S014_task-EyesClosed_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S015/S015R01.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S015_task-EyesOpen_eeg.mat
+
+Processing: /home/ubuntu/datasets/physionet_motor/S015/S015R02.edf
+ Channels: 64, Samples: 9760, Fs: 160.0 Hz
+ Applying bandpass filter (0.5-50 Hz)...
+ Aggregating to 16 ROIs...
+ Final shape: (16, 9760) (16 ROIs × 9760 samples)
+ Saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/S015_task-EyesClosed_eeg.mat
+
+================================================================================
+PREPROCESSING COMPLETE
+================================================================================
+Successfully processed: 30 files
+Failed: 0 files
+================================================================================
+
+Manifest saved: /home/ubuntu/entptc-implementation/data/dataset_set_2/dataset_set_2_manifest.csv
+
+Dataset Set 2 ready for EntPTC analysis!

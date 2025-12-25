@@ -1,0 +1,250 @@
+{
+  "signature_eo": {
+    "1_eigenvalue_profile": {
+      "lambda_1": 0.21384056051053787,
+      "lambda_2": 0.12571304322038296,
+      "spectral_gap": 0.08812751729015492,
+      "participation_ratio": 0.0,
+      "eigenvalue_decay_rate": 0.5710323090686278
+    },
+    "2_spectral_gap_stability": {
+      "mean": 0.09681619860466878,
+      "std": 0.02546327378781309,
+      "cv": 0.26300633731538775
+    },
+    "3_entropy_flow": {
+      "von_neumann_entropy": 1.6879483775276727,
+      "normalized_entropy": 0.8117315845119152,
+      "entropy_gradient": 1.175043127433068e-05
+    },
+    "4_winding_coverage": {
+      "phase_winding_theta1": 0.12955706596099484,
+      "phase_winding_theta2": 0.018157819126822232,
+      "phase_winding_theta3": 0.009970362437592976,
+      "circular_variance_theta1": 0.8704429340390052,
+      "circular_variance_theta2": 0.9818421808731779,
+      "circular_variance_theta3": 0.990029637562407
+    },
+    "5_regime_dwell": {
+      "mean_dwell_time_sec": 13.75,
+      "std_dwell_time_sec": 5.448623679425842,
+      "cv": 0.39626354032187944
+    },
+    "6_path_curvature": {
+      "mean_curvature_theta1": 206619.9787727125,
+      "mean_curvature_theta2": 408211.1648956331,
+      "mean_curvature_theta3": 1679886.9086541918
+    },
+    "7_graph_locality": {
+      "locality_correlation": -0.32760449916326617,
+      "long_range_plv": 0.8706303288034315
+    }
+  },
+  "signature_ec": {
+    "1_eigenvalue_profile": {
+      "lambda_1": 0.2023802205187978,
+      "lambda_2": 0.12765273002716562,
+      "spectral_gap": 0.07472749049163219,
+      "participation_ratio": 2.0994607578938795e-32,
+      "eigenvalue_decay_rate": 0.6235097200784189
+    },
+    "2_spectral_gap_stability": {
+      "mean": 0.0730216892132347,
+      "std": 0.02699897069467815,
+      "cv": 0.3697390595256836
+    },
+    "3_entropy_flow": {
+      "von_neumann_entropy": 1.6753426384073133,
+      "normalized_entropy": 0.8056695054066877,
+      "entropy_gradient": -0.003918814048425858
+    },
+    "4_winding_coverage": {
+      "phase_winding_theta1": 0.1290535928610907,
+      "phase_winding_theta2": 0.03793572016646574,
+      "phase_winding_theta3": 0.008476924049265495,
+      "circular_variance_theta1": 0.8709464071389093,
+      "circular_variance_theta2": 0.9620642798335343,
+      "circular_variance_theta3": 0.9915230759507345
+    },
+    "5_regime_dwell": {
+      "mean_dwell_time_sec": 18.333333333333332,
+      "std_dwell_time_sec": 4.714045207910316,
+      "cv": 0.25712973861328997
+    },
+    "6_path_curvature": {
+      "mean_curvature_theta1": 214859.63714682386,
+      "mean_curvature_theta2": 137783.42328009006,
+      "mean_curvature_theta3": 1223356.943625263
+    },
+    "7_graph_locality": {
+      "locality_correlation": -0.2647894268049712,
+      "long_range_plv": 0.4426512388066916
+    }
+  },
+  "differences": {
+    "1_eigenvalue_profile": {
+      "eigenvalue_decay_rate": {
+        "eo": 0.5710323090686278,
+        "ec": 0.6235097200784189,
+        "abs_diff": 0.052477411009791086,
+        "rel_diff_percent": 9.18991975886505
+      },
+      "lambda_1": {
+        "eo": 0.21384056051053787,
+        "ec": 0.2023802205187978,
+        "abs_diff": -0.011460339991740065,
+        "rel_diff_percent": -5.359291969222095
+      },
+      "lambda_2": {
+        "eo": 0.12571304322038296,
+        "ec": 0.12765273002716562,
+        "abs_diff": 0.0019396868067826645,
+        "rel_diff_percent": 1.542947935672293
+      },
+      "participation_ratio": {
+        "eo": 0.0,
+        "ec": 2.0994607578938795e-32,
+        "abs_diff": 2.0994607578938795e-32,
+        "rel_diff_percent": 2.0994607578938795e-20
+      },
+      "spectral_gap": {
+        "eo": 0.08812751729015492,
+        "ec": 0.07472749049163219,
+        "abs_diff": -0.01340002679852273,
+        "rel_diff_percent": -15.20526981283113
+      }
+    },
+    "2_spectral_gap_stability": {
+      "cv": {
+        "eo": 0.26300633731538775,
+        "ec": 0.3697390595256836,
+        "abs_diff": 0.10673272221029584,
+        "rel_diff_percent": 40.581806225347336
+      },
+      "mean": {
+        "eo": 0.09681619860466878,
+        "ec": 0.0730216892132347,
+        "abs_diff": -0.023794509391434085,
+        "rel_diff_percent": -24.576991980461468
+      },
+      "std": {
+        "eo": 0.02546327378781309,
+        "ec": 0.02699897069467815,
+        "abs_diff": 0.0015356969068650583,
+        "rel_diff_percent": 6.031026935621401
+      }
+    },
+    "3_entropy_flow": {
+      "entropy_gradient": {
+        "eo": 1.175043127433068e-05,
+        "ec": -0.003918814048425858,
+        "abs_diff": -0.0039305644797001885,
+        "rel_diff_percent": -33450.100152378654
+      },
+      "normalized_entropy": {
+        "eo": 0.8117315845119152,
+        "ec": 0.8056695054066877,
+        "abs_diff": -0.006062079105227491,
+        "rel_diff_percent": -0.7468083317376077
+      },
+      "von_neumann_entropy": {
+        "eo": 1.6879483775276727,
+        "ec": 1.6753426384073133,
+        "abs_diff": -0.012605739120359338,
+        "rel_diff_percent": -0.746808331785364
+      }
+    },
+    "4_winding_coverage": {
+      "circular_variance_theta1": {
+        "eo": 0.8704429340390052,
+        "ec": 0.8709464071389093,
+        "abs_diff": 0.0005034730999040615,
+        "rel_diff_percent": 0.05784102324893587
+      },
+      "circular_variance_theta2": {
+        "eo": 0.9818421808731779,
+        "ec": 0.9620642798335343,
+        "abs_diff": -0.01977790103964361,
+        "rel_diff_percent": -2.014366608291389
+      },
+      "circular_variance_theta3": {
+        "eo": 0.990029637562407,
+        "ec": 0.9915230759507345,
+        "abs_diff": 0.0014934383883274949,
+        "rel_diff_percent": 0.1508478465204035
+      },
+      "phase_winding_theta1": {
+        "eo": 0.12955706596099484,
+        "ec": 0.1290535928610907,
+        "abs_diff": -0.0005034730999041448,
+        "rel_diff_percent": -0.38861106940096346
+      },
+      "phase_winding_theta2": {
+        "eo": 0.018157819126822232,
+        "ec": 0.03793572016646574,
+        "abs_diff": 0.01977790103964351,
+        "rel_diff_percent": 108.92222679708222
+      },
+      "phase_winding_theta3": {
+        "eo": 0.009970362437592976,
+        "ec": 0.008476924049265495,
+        "abs_diff": -0.001493438388327481,
+        "rel_diff_percent": -14.978777177825911
+      }
+    },
+    "5_regime_dwell": {
+      "cv": {
+        "eo": 0.39626354032187944,
+        "ec": 0.25712973861328997,
+        "abs_diff": -0.13913380170858947,
+        "rel_diff_percent": -35.11143153883437
+      },
+      "mean_dwell_time_sec": {
+        "eo": 13.75,
+        "ec": 18.333333333333332,
+        "abs_diff": 4.583333333333332,
+        "rel_diff_percent": 33.333333333090906
+      },
+      "std_dwell_time_sec": {
+        "eo": 5.448623679425842,
+        "ec": 4.714045207910316,
+        "abs_diff": -0.7345784715155261,
+        "rel_diff_percent": -13.48190873001256
+      }
+    },
+    "6_path_curvature": {
+      "mean_curvature_theta1": {
+        "eo": 206619.9787727125,
+        "ec": 214859.63714682386,
+        "abs_diff": 8239.658374111372,
+        "rel_diff_percent": 3.9878323592198277
+      },
+      "mean_curvature_theta2": {
+        "eo": 408211.1648956331,
+        "ec": 137783.42328009006,
+        "abs_diff": -270427.741615543,
+        "rel_diff_percent": -66.2470223431255
+      },
+      "mean_curvature_theta3": {
+        "eo": 1679886.9086541918,
+        "ec": 1223356.943625263,
+        "abs_diff": -456529.9650289288,
+        "rel_diff_percent": -27.176232083067354
+      }
+    },
+    "7_graph_locality": {
+      "locality_correlation": {
+        "eo": -0.32760449916326617,
+        "ec": -0.2647894268049712,
+        "abs_diff": 0.06281507235829498,
+        "rel_diff_percent": 19.174056674910368
+      },
+      "long_range_plv": {
+        "eo": 0.8706303288034315,
+        "ec": 0.4426512388066916,
+        "abs_diff": -0.4279790899967399,
+        "rel_diff_percent": -49.15738354024311
+      }
+    }
+  }
+}

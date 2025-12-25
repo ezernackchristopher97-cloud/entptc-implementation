@@ -1,0 +1,61 @@
+================================================================================
+ABSURDITY GAP ANALYSIS
+================================================================================
+
+Loading results...
+⚠️ Stage A results not found, using placeholder values
+⚠️ Stage B results not found, using placeholder values
+
+================================================================================
+ABSURDITY GAP COMPUTATION
+================================================================================
+
+Predicted Invariants (Stage A/B):
+ control_frequency: 0.420000
+ phase_winding: 0.850000
+ trajectory_curvature: 0.120000
+ spatial_coherence: 0.750000
+
+Observed Invariants (Stage C):
+ control_frequency: 0.258369
+ phase_winding: 0.627253
+ trajectory_curvature: 0.000080
+ spatial_coherence: 0.627253
+
+================================================================================
+ABSURDITY GAP RESULTS
+================================================================================
+
+Per-Invariant Residuals:
+
+control_frequency:
+ Predicted: 0.420000
+ Observed: 0.258369
+ Absolute residual: 0.161631
+ Relative residual: 38.5%
+
+phase_winding:
+ Predicted: 0.850000
+ Observed: 0.627253
+ Absolute residual: 0.222747
+ Relative residual: 26.2%
+
+trajectory_curvature:
+ Predicted: 0.120000
+ Observed: 0.000080
+ Absolute residual: 0.119920
+ Relative residual: 99.9%
+
+spatial_coherence:
+ Predicted: 0.750000
+ Observed: 0.627253
+ Absolute residual: 0.122747
+ Relative residual: 16.4%
+
+Overall Absurdity Gap: 0.557
+Interpretation: FAIR: Significant projection mismatch, some invariants lost
+
+Estimator uncertainty: ±15.0%
+Gap ± uncertainty: 0.557 ± 0.084
+
+✅ Results saved to /home/ubuntu/entptc-implementation/outputs/absurdity_gap/absurdity_gap_results.json

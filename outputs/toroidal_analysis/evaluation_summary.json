@@ -1,0 +1,9 @@
+{
+  "case": "C_or_E",
+  "significant_metrics": [],
+  "n_significant": 0,
+  "regime_transitions": 8,
+  "mean_spectral_gap": 2.021614851482505,
+  "mean_entropy": 5.199234499629243,
+  "mean_absurdity_gap": 4.887278146697351
+}

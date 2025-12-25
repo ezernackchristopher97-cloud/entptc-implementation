@@ -1,0 +1,44 @@
+================================================================================
+SANITY APPENDIX GENERATOR
+================================================================================
+
+Loading sub-LTP448_ses-0_task-SpatialNav_eeg.mat...
+Data shape: (16, 96000)
+Sampling rate: 160.0 Hz
+Duration: 600.0 seconds
+
+=== Plot 1: Phase Histograms ===
+ROI 0: mean=0.000, std=1.809, unique=6284
+ROI 1: mean=0.036, std=1.824, unique=6285
+ROI 2: mean=0.006, std=1.820, unique=6284
+ROI 3: mean=-0.007, std=1.827, unique=6285
+✅ Saved to /home/ubuntu/entptc-implementation/outputs/sanity_appendix/sanity_plot1_phase_histograms.png
+
+=== Plot 2: Amplitude Distributions ===
+Sub-delta: mean=1.141435e-06, std=6.687158e-07, min=8.791168e-09, max=3.126969e-06
+Delta: mean=4.208903e-06, std=2.678831e-06, min=1.067312e-08, max=2.019964e-05
+Theta: mean=2.082072e-06, std=1.132864e-06, min=4.588849e-09, max=7.142611e-06
+Gamma: mean=1.429558e-06, std=8.925741e-07, min=4.292288e-09, max=1.343040e-05
+✅ Saved to /home/ubuntu/entptc-implementation/outputs/sanity_appendix/sanity_plot2_amplitude_distributions.png
+
+=== Plot 3: Window-by-Window Variance ===
+Phase variance: mean=3.240176, min=1.914946, max=4.087606
+Amplitude variance: mean=2.192974e-13, min=8.900586e-15, max=1.081747e-12
+✅ Saved to /home/ubuntu/entptc-implementation/outputs/sanity_appendix/sanity_plot3_window_variance.png
+
+=== Plot 4: PAC Surrogate Tests ===
+Real PAC: 0.000000
+Null PAC: 0.000000 ± 0.000000
+Percentile: 100.0%
+Z-score: 4.97
+✅ Saved to /home/ubuntu/entptc-implementation/outputs/sanity_appendix/sanity_plot4_pac_surrogate.png
+
+=== Plot 5: Regime Dwell-Time Distributions ===
+Number of regimes: 29
+Dwell times: mean=20.3s, min=15.0s, max=35.0s
+✅ Saved to /home/ubuntu/entptc-implementation/outputs/sanity_appendix/sanity_plot5_regime_dwell_times.png
+
+================================================================================
+SANITY APPENDIX COMPLETE
+================================================================================
+All plots saved to /home/ubuntu/entptc-implementation/outputs/sanity_appendix

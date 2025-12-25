@@ -1,0 +1,100 @@
+================================================================================
+STAGE C: C1/C2/C3 TESTS (CORRECTED FRAMING)
+================================================================================
+
+Loading data...
+Data shape: (16, 96000)
+Sampling rate: 160.0 Hz
+Grid size: 4×4
+
+Computing operator collapse frequency...
+
+================================================================================
+OPERATOR COLLAPSE FREQUENCY INFERENCE
+================================================================================
+
+1. Constructing progenitor matrix...
+Progenitor matrix shape: (16, 16)
+Progenitor trace: 0.000000
+
+2. Computing eigenstructure...
+Dominant eigenvalue (λ_dom): 0.285824
+Spectral gap (λ₁ - λ₂): 0.178421
+Participation ratio: 0.00
+
+3. Inferring collapse rate...
+Collapse rate (dimensionless): 0.624233
+Control timescale τ_control: 0.01 seconds
+Control frequency f_control: 99.8772 Hz
+
+4. Computing entropy gradient...
+Von Neumann entropy: 1.4708
+Max entropy: 2.0794
+Normalized entropy: 0.7073
+
+5. Computing regime dwell times...
+Number of regimes: 13751
+Mean dwell time: 0.04 seconds
+Median dwell time: 0.02 seconds
+
+================================================================================
+OPERATOR COLLAPSE FREQUENCY INFERENCE COMPLETE
+================================================================================
+
+Inferred control frequency: 99.8772 Hz
+Control timescale: 0.01 seconds
+Regime dwell time: 0.04 seconds
+
+Interpretation:
+- This frequency is INFERRED from operator collapse, NOT read from EEG spectrum
+- Projection into EEG may appear as infra-slow modulation, regime timing, or geometry
+- THz is viable hypothesis if invariant matching supports it at microphysical scale
+
+================================================================================
+C1: GATING TEST
+================================================================================
+
+Operator-derived control frequency: 99.88 Hz (intrinsic)
+EEG projection band (infra-slow): 0.14-0.33 Hz
+Note: Control frequency appears as infra-slow modulation in EEG projection
+
+Control envelope - Gamma power correlation: 0.0165
+Number of regime transitions: 74
+Gating strength (envelope variance): 0.000000
+
+C1 verdict: ❌ FAIL
+
+================================================================================
+C2: ORGANIZATION TEST
+================================================================================
+
+Baseline (real adjacency)...
+Baseline PLV: 0.627253
+
+Ablation (randomized adjacency)...
+Ablated PLV: 0.523418
+PLV change: 0.103836 (16.6%)
+
+C2 verdict: ✅ PASS
+
+================================================================================
+C3: REGIME TIMING TEST
+================================================================================
+
+Number of regime transitions: 28
+Mean dwell time: 20.34 seconds
+Std dwell time: 5.71 seconds
+CV (coefficient of variation): 0.28
+
+C3 verdict: ✅ PASS
+
+================================================================================
+STAGE C OVERALL VERDICT
+================================================================================
+C1 (Gating): ❌ FAIL
+C2 (Organization): ✅ PASS
+C3 (Regime timing): ✅ PASS
+
+Overall: ⚠️ PARTIAL
+
+✅ Results saved to /home/ubuntu/entptc-implementation/outputs/stage_c_final/stage_c_final_results.json

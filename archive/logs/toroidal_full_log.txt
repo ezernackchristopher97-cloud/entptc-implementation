@@ -1,0 +1,368 @@
+================================================================================
+ENTPTC ANALYSIS WITH TOROIDAL CONSTRAINTS
+================================================================================
+Toroidal grid: 4×4 on T²
+Connectivity: von Neumann (4-neighbors)
+Constraint strength: 0.8
+================================================================================
+
+================================================================================
+DATASET: Dataset_Set_1
+================================================================================
+Files found: 150
+
+[1/150] sub-001_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[2/150] sub-001_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[3/150] sub-001_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[4/150] sub-001_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[5/150] sub-005_ses-2_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[6/150] sub-005_ses-2_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[7/150] sub-005_ses-2_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[8/150] sub-005_ses-2_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[9/150] sub-006_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[10/150] sub-006_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[11/150] sub-006_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[12/150] sub-006_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[13/150] sub-007_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[14/150] sub-007_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[15/150] sub-007_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[16/150] sub-007_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[17/150] sub-008_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[18/150] sub-008_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[19/150] sub-008_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[20/150] sub-008_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[21/150] sub-009_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[22/150] sub-009_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[23/150] sub-009_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[24/150] sub-009_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[25/150] sub-010_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[26/150] sub-010_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[27/150] sub-010_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[28/150] sub-010_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[29/150] sub-011_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[30/150] sub-011_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[31/150] sub-011_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[32/150] sub-011_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[33/150] sub-012_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[34/150] sub-012_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[35/150] sub-012_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[36/150] sub-012_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[37/150] sub-013_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[38/150] sub-013_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[39/150] sub-013_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[40/150] sub-013_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[41/150] sub-014_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[42/150] sub-014_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[43/150] sub-014_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[44/150] sub-014_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[45/150] sub-015_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[46/150] sub-015_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[47/150] sub-015_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[48/150] sub-015_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[49/150] sub-016_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[50/150] sub-016_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[51/150] sub-016_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[52/150] sub-016_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[53/150] sub-017_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[54/150] sub-017_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[55/150] sub-017_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[56/150] sub-017_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[57/150] sub-018_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[58/150] sub-018_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[59/150] sub-018_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[60/150] sub-018_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[61/150] sub-019_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[62/150] sub-019_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[63/150] sub-019_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[64/150] sub-019_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[65/150] sub-020_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[66/150] sub-020_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[67/150] sub-020_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[68/150] sub-020_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[69/150] sub-021_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[70/150] sub-021_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[71/150] sub-021_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[72/150] sub-021_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[73/150] sub-022_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[74/150] sub-022_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[75/150] sub-022_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[76/150] sub-022_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[77/150] sub-023_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[78/150] sub-023_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[79/150] sub-023_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[80/150] sub-023_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[81/150] sub-024_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[82/150] sub-024_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[83/150] sub-336_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[84/150] sub-336_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[85/150] sub-336_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[86/150] sub-336_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[87/150] sub-337_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[88/150] sub-337_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[89/150] sub-337_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[90/150] sub-337_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[91/150] sub-338_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[92/150] sub-338_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[93/150] sub-338_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[94/150] sub-338_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[95/150] sub-339_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[96/150] sub-339_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[97/150] sub-339_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[98/150] sub-339_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[99/150] sub-340_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[100/150] sub-340_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[101/150] sub-340_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[102/150] sub-340_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[103/150] sub-340_ses-2_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[104/150] sub-340_ses-2_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[105/150] sub-340_ses-2_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[106/150] sub-340_ses-2_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[107/150] sub-341_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[108/150] sub-341_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[109/150] sub-341_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[110/150] sub-341_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[111/150] sub-341_ses-2_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[112/150] sub-341_ses-2_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[113/150] sub-341_ses-2_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[114/150] sub-341_ses-2_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[115/150] sub-342_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[116/150] sub-342_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[117/150] sub-342_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[118/150] sub-342_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[119/150] sub-343_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[120/150] sub-343_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[121/150] sub-343_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[122/150] sub-343_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[123/150] sub-344_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[124/150] sub-344_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[125/150] sub-344_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[126/150] sub-344_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[127/150] sub-345_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[128/150] sub-345_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[129/150] sub-345_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[130/150] sub-345_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[131/150] sub-346_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[132/150] sub-346_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[133/150] sub-346_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[134/150] sub-346_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[135/150] sub-347_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[136/150] sub-347_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[137/150] sub-347_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[138/150] sub-347_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[139/150] sub-347_ses-2_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[140/150] sub-347_ses-2_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[141/150] sub-347_ses-2_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[142/150] sub-347_ses-2_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[143/150] sub-348_ses-1_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[144/150] sub-348_ses-1_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[145/150] sub-348_ses-1_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[146/150] sub-348_ses-1_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[147/150] sub-348_ses-2_task-EyesClosed_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[148/150] sub-348_ses-2_task-EyesClosed_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[149/150] sub-348_ses-2_task-EyesOpen_acq-post_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+[150/150] sub-348_ses-2_task-EyesOpen_acq-pre_eeg.mat ... Error: tuple index out of range
+FAILED (load error)
+
+================================================================================
+Processed: 0/150
+================================================================================
+
+================================================================================
+DATASET: Dataset_Set_2
+================================================================================
+Files found: 30
+
+[1/30] S001_task-EyesClosed_eeg.mat ... OK
+[2/30] S001_task-EyesOpen_eeg.mat ... OK
+[3/30] S002_task-EyesClosed_eeg.mat ... OK
+[4/30] S002_task-EyesOpen_eeg.mat ... OK
+[5/30] S003_task-EyesClosed_eeg.mat ... OK
+[6/30] S003_task-EyesOpen_eeg.mat ... OK
+[7/30] S004_task-EyesClosed_eeg.mat ... OK
+[8/30] S004_task-EyesOpen_eeg.mat ... OK
+[9/30] S005_task-EyesClosed_eeg.mat ... OK
+[10/30] S005_task-EyesOpen_eeg.mat ... OK
+[11/30] S006_task-EyesClosed_eeg.mat ... OK
+[12/30] S006_task-EyesOpen_eeg.mat ... OK
+[13/30] S007_task-EyesClosed_eeg.mat ... OK
+[14/30] S007_task-EyesOpen_eeg.mat ... OK
+[15/30] S008_task-EyesClosed_eeg.mat ... OK
+[16/30] S008_task-EyesOpen_eeg.mat ... OK
+[17/30] S009_task-EyesClosed_eeg.mat ... OK
+[18/30] S009_task-EyesOpen_eeg.mat ... OK
+[19/30] S010_task-EyesClosed_eeg.mat ... OK
+[20/30] S010_task-EyesOpen_eeg.mat ... OK
+[21/30] S011_task-EyesClosed_eeg.mat ... OK
+[22/30] S011_task-EyesOpen_eeg.mat ... OK
+[23/30] S012_task-EyesClosed_eeg.mat ... OK
+[24/30] S012_task-EyesOpen_eeg.mat ... OK
+[25/30] S013_task-EyesClosed_eeg.mat ... OK
+[26/30] S013_task-EyesOpen_eeg.mat ... OK
+[27/30] S014_task-EyesClosed_eeg.mat ... OK
+[28/30] S014_task-EyesOpen_eeg.mat ... OK
+[29/30] S015_task-EyesClosed_eeg.mat ... OK
+[30/30] S015_task-EyesOpen_eeg.mat ... OK
+
+================================================================================
+Processed: 30/30
+================================================================================
+
+Saved: /home/ubuntu/entptc-implementation/outputs/toroidal_analysis/dataset_set_2_toroidal.csv (30 rows)
+
+Saved: /home/ubuntu/entptc-implementation/outputs/toroidal_analysis/all_datasets_toroidal.csv (30 rows)
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================
+Total files: 30
+Output: /home/ubuntu/entptc-implementation/outputs/toroidal_analysis
+================================================================================

@@ -1,0 +1,80 @@
+{
+  "Regime Transition Probability": {
+    "test_name": "Regime Transition Probability",
+    "chi2_statistic": 0.0,
+    "p_value": 1.0,
+    "falsified": true,
+    "interpretation": "Model falsified if p >= 0.05 (no regime difference)"
+  },
+  "Eigenvalue Stability Index": {
+    "test_name": "Eigenvalue Stability Index",
+    "levene_statistic": 3.505425538249956,
+    "p_value": 0.0631411174597613,
+    "eyes_closed_cv": 0.1289001236702293,
+    "eyes_open_cv": 0.09169055304664876,
+    "cv_difference": 0.03720957062358053,
+    "falsified": true,
+    "interpretation": "Model falsified if p >= 0.05 (equal variance)"
+  },
+  "Information Flow Asymmetry": {
+    "test_name": "Information Flow Asymmetry",
+    "t_statistic": 1.9792333803202384,
+    "p_value": 0.04964506638492635,
+    "eyes_closed_entropy": 1.2916558692161069,
+    "eyes_open_entropy": 1.0405446679799928,
+    "cohens_d": 0.3234896522860234,
+    "falsified": false,
+    "interpretation": "Model falsified if p >= 0.05 (no entropy difference)"
+  },
+  "Spectral Gap Sensitivity": {
+    "test_name": "Spectral Gap Sensitivity",
+    "mann_whitney_u": 2482.0,
+    "p_value": 0.2154896139149287,
+    "eyes_closed_gap_median": 9.14860884503634,
+    "eyes_open_gap_median": 10.206399980232174,
+    "median_difference": -1.0577911351958331,
+    "falsified": true,
+    "interpretation": "Model falsified if p >= 0.05 (no gap difference)"
+  },
+  "Multivariate Discriminability": {
+    "test_name": "Multivariate Discriminability",
+    "hotellings_t2": 8.168161126663191,
+    "f_statistic": 2.0006475732536533,
+    "p_value": 0.09750712384799343,
+    "metrics_used": [
+      "lambda_max",
+      "spectral_gap",
+      "entropy_mean",
+      "absurdity_gap_L2"
+    ],
+    "falsified": true,
+    "interpretation": "Model falsified if p >= 0.05 (no multivariate difference)"
+  },
+  "Entropy Production Rate": {
+    "test_name": "Entropy Production Rate",
+    "t_statistic": -1.2766875430556612,
+    "p_value": 0.20625491974552462,
+    "eyes_closed_change_mean": -0.7324499897738418,
+    "eyes_open_change_mean": -0.4286362736179539,
+    "n_subjects_closed": 34,
+    "n_subjects_open": 33,
+    "falsified": true,
+    "interpretation": "Model falsified if p >= 0.05 (no difference in entropy change)"
+  },
+  "Quaternion-Clifford Transition Marker": {
+    "test_name": "Quaternion-Clifford Transition Marker",
+    "t_statistic": 1.2268977470006188,
+    "p_value": 0.22180919146689898,
+    "eyes_closed_ratio": 1.0003779549563303,
+    "eyes_open_ratio": 1.0001963072655697,
+    "ratio_difference": 0.00018164769076056686,
+    "falsified": true,
+    "interpretation": "Model falsified if p >= 0.05 (no algebraic difference)"
+  },
+  "Absurdity Gap Component Analysis": {
+    "test_name": "Absurdity Gap Component Analysis",
+    "any_component_significant": false,
+    "falsified": true,
+    "interpretation": "Model falsified if NO components show difference"
+  }
+}

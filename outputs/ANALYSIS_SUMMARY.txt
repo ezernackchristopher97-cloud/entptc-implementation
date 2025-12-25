@@ -1,0 +1,16 @@
+ENTPC ANALYSIS - COMPREHENSIVE SUMMARY REPORT
+================================================================================
+
+Total recordings: 150
+Unique subjects: 34
+
+KEY FINDINGS:
+- Mean λ_max: 13.303673
+- Mean Spectral Gap: 10.048945
+- Mean Absurdity Gap (L2): 1.271257
+
+FALSIFIABILITY TEST:
+- Eyes Closed Absurdity Gap: 1.312591
+- Eyes Open Absurdity Gap: 1.228806
+- p-value: 0.140241
+- Result: FAILED

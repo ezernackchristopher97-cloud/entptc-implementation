@@ -1,0 +1,194 @@
+================================================================================
+Stage C Dataset 2 (ds004706) - FIXED ANALYSIS
+================================================================================
+
+Found 5 preprocessed sessions
+
+Loading sub-LTP448_ses-0_task-SpatialNav_eeg.mat...
+ Shape: (16, 96000)
+ Sampling rate: 160.0 Hz
+ Duration: 600.0 seconds
+
+================================================================================
+ABLATION TESTS WITH VERIFICATION
+================================================================================
+
+=== Ablation Verification ===
+Intact vs Removed: 64 elements differ (out of 256)
+Intact vs Randomized: 110 elements differ (out of 256)
+Removed vs Randomized: 110 elements differ (out of 256)
+
+Neighbor counts (intact): min=4.0, max=4.0, mean=4.00
+Neighbor counts (removed): min=0.0, max=0.0, mean=0.00
+Neighbor counts (randomized): min=5.0, max=11.0, mean=6.88
+
+✅ Ablation verification PASSED: All ablations modify constraint matrix
+
+--- Ablation: intact ---
+
+=== Windowing and Sampling Verification ===
+Sampling rate: 160.0 Hz
+Nyquist frequency: 80.0 Hz
+Target frequency range: 0.14-0.33 Hz
+✅ Frequency range valid (below Nyquist)
+
+Window length: 10.0 seconds
+Cycles per window at 0.14 Hz: 1.40
+⚠️ WARNING: Window length may be too short (< 3 cycles at 0.14 Hz)
+
+Overlap: 50%
+Step size: 5.00 seconds
+C1 (PAC): 0.000000
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+C2 (Phase Winding): 0.627253
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+C2 (Trajectory Alignment): 0.374169
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+PLV real: 0.535466
+PLV null: 0.078784 ± 0.006023
+PLV difference: 0.456682 (75.82 SD)
+C2 (PLV): real=0.535466, null=0.078784, diff=0.456682
+PPC: 0.709955
+C2 (PPC): 0.709955
+Spectral gap: min=0.000000, max=0.000000, mean=0.000000
+Threshold (50th percentile): 0.000000
+Regime transitions: 28 total, 14.24 per minute
+Regime distribution: 60 low, 58 high
+C3 (Regime Timing): corr=-0.328262, transitions=28, per_min=14.24
+
+--- Ablation: removed ---
+
+=== Windowing and Sampling Verification ===
+Sampling rate: 160.0 Hz
+Nyquist frequency: 80.0 Hz
+Target frequency range: 0.14-0.33 Hz
+✅ Frequency range valid (below Nyquist)
+
+Window length: 10.0 seconds
+Cycles per window at 0.14 Hz: 1.40
+⚠️ WARNING: Window length may be too short (< 3 cycles at 0.14 Hz)
+
+Overlap: 50%
+Step size: 5.00 seconds
+C1 (PAC): 0.000000
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+C2 (Phase Winding): 0.000000
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+C2 (Trajectory Alignment): 0.000000
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+PLV real: 0.535466
+PLV null: 0.079578 ± 0.005585
+PLV difference: 0.455888 (81.63 SD)
+C2 (PLV): real=0.535466, null=0.079578, diff=0.455888
+PPC: 0.709955
+C2 (PPC): 0.709955
+
+--- Ablation: randomized ---
+
+=== Windowing and Sampling Verification ===
+Sampling rate: 160.0 Hz
+Nyquist frequency: 80.0 Hz
+Target frequency range: 0.14-0.33 Hz
+✅ Frequency range valid (below Nyquist)
+
+Window length: 10.0 seconds
+Cycles per window at 0.14 Hz: 1.40
+⚠️ WARNING: Window length may be too short (< 3 cycles at 0.14 Hz)
+
+Overlap: 50%
+Step size: 5.00 seconds
+C1 (PAC): 0.000000
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+C2 (Phase Winding): 0.553514
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+C2 (Trajectory Alignment): 0.296610
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+PLV real: 0.535466
+PLV null: 0.078932 ± 0.006976
+PLV difference: 0.456534 (65.44 SD)
+C2 (PLV): real=0.535466, null=0.078932, diff=0.456534
+PPC: 0.709955
+C2 (PPC): 0.709955
+
+================================================================================
+UNIQUENESS TESTS U1-U3
+================================================================================
+
+================================================================================
+U1: TOPOLOGY-SPECIFIC ABLATION LADDER
+================================================================================
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+Intact torus: metric = 0.627253
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+Cylinder (one periodic boundary): metric = 0.684505, collapse = -9.1%
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+Randomized adjacency: metric = 0.510863, collapse = 18.6%
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.055, max=0.031, mean=0.000
+Phase variances: min=3.203124, max=3.349492, mean=3.287465
+Unique phases per ROI: min=6283, max=6285, mean=6284.6
+Phase scrambled: metric = 0.084771, collapse = 86.5%
+
+Monotonic degradation: ❌ NO
+
+================================================================================
+U2: NON-TOROIDAL MANIFOLD CONTROLS
+================================================================================
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.520, max=1.000, mean=0.493
+Phase variances: min=3.260705, max=3.336942, mean=3.298922
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+Original toroidal data: metric = 0.627253
+ROI variances: min=0.374477, max=0.640770, mean=0.507388
+Pairwise correlations: min=-0.973, max=0.921, mean=-0.065
+Phase variances: min=3.223446, max=3.357930, mean=3.280442
+Unique phases per ROI: min=6283, max=6285, mean=6284.6
+S² trajectory control: metric = 0.081158, difference = 87.1%
+ROI variances: min=1.000000, max=1.000000, mean=1.000000
+Pairwise correlations: min=-0.912, max=0.877, mean=-0.027
+Phase variances: min=3.238232, max=3.417704, mean=3.305745
+Unique phases per ROI: min=6284, max=6285, mean=6284.6
+Random walk control: metric = 0.088081, difference = 86.0%
+ROI variances: min=0.000000, max=0.000000, mean=0.000000
+Pairwise correlations: min=-0.041, max=0.027, mean=-0.001
+Phase variances: min=3.241646, max=3.342622, mean=3.296661
+Unique phases per ROI: min=6283, max=6285, mean=6284.4
+Matched spectrum surrogate: metric = 0.105238, difference = 83.2%
+
+Toroidal signature unique (>30% difference from all controls): ✅ YES

@@ -1,0 +1,98 @@
+
+% --- encoding & fonts ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[expansion=false]{microtype}
+
+% Map stray Unicode seen in pasted text (fixes “Invalid UTF-8 byte 'B4'” etc.)
+\DeclareUnicodeCharacter{00B4}{\'{}} % acute accent ´
+\DeclareUnicodeCharacter{00A0}{~}    % non-breaking space
+\DeclareUnicodeCharacter{2019}{'}    % right single quote ’
+\DeclareUnicodeCharacter{2013}{--}   % en dash , 
+\DeclareUnicodeCharacter{2014}{---}  % em dash , 
+
+% --- graphics & figures ---
+\usepackage{graphicx}
+\graphicspath{{./figures/}}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage[skip=6pt]{caption}
+\usepackage{float}
+
+% --- math & tables ---
+\usepackage{amsmath,amssymb,amsfonts}
+\newtheorem{definition}{Definition}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+% --- spacing, indentation, headings, lists ---
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+% Paragraph spacing + indentation
+\setlength{\parindent}{12pt}
+\setlength{\parskip}{0.4em plus 0.1em minus 0.05em}
+\onehalfspacing
+
+% List spacing defaults
+\setlist{itemsep=0.2em, topsep=0.4em, parsep=0pt, partopsep=0pt}
+
+% Section spacing: \titlespacing{command}{left}{before}{after}
+\titlespacing*{\section}{0pt}{1.2ex plus 0.5ex minus 0.2ex}{0.8ex}
+\titlespacing*{\subsection}{0pt}{1.0ex plus 0.4ex minus 0.2ex}{0.6ex}
+\titlespacing*{\subsubsection}{0pt}{0.8ex plus 0.3ex minus 0.2ex}{0.4ex}
+
+% --- citations then hyperlinks (order matters) ---
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{hyperref}
+
+% --- metadata ---
+\title{EntPTC Paper I: Mathematical Model of Experience through Recursive Entropy and Quaternionic Filtering}
+\author{Christopher Ezernack\\
+University of Texas at Dallas\\
+\texttt{Christopher.Ezernack@utdallas.edu}}
+\date{November 2025}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper introduces a mathematically rigorous and experimentally grounded model of consciousness based on quaternionic Hilbert spaces \cite{tobar2014quaternionic,Moretti2017Quaternionic,Giardino2020Quaternionic}, entropy field dynamics \cite{tononi2016integrated,Jha2025Entropy,Lugten2024Entropy}, and terahertz-induced coherence systems \cite{Jepsen2011}. The model, referred to as Solution Set A, predicts distinct terahertz signatures at 1.00, 1.40, 2.20, and 2.40 THz with stable dynamic behavior. Empirical alignment with QEEG terahertz-induced coherence \cite{Zhang2021,Huang2022} and entropy gradients \cite{Sakkalis2011} shows a high correlation (r = 0.94, p < 0.001) with published microtubule resonance data \cite{penrose1989emperor} and neural oscillation findings \cite{varela1991embodied}. The model accounts for the emergence of conscious experience and establishes a foundation for experimental verification. This framework seeks to close the explanatory gap \cite{chalmers1995facing} between objective neural processes and subjective experience, shifting the study of consciousness from philosophical debate to a domain of mathematical precision.
+
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{Introduction to EntPTC Theory}
+
+\subsection{Definition and Scope}
+
+Consciousness presents a fundamental challenge to scientific understanding. Most consciousness theories avoid the philosophical complexities of subjective experience and solipsism; these problems represent the core mystery of conscious phenomena.
+
+The Entropic Toroidal Consciousness (EntPTC) theory provides a comprehensive framework that addresses the philosophical issues of subjective experience and solipsism. This approach formulates empirically testable questions about consciousness while exploring qualia and other aspects of awareness through experimental and empirical methods.
+
+This model challenges materialist reductionism by defining consciousness as a measurable field phenomenon, uniting physics and subjective experience through rigorous mathematical frameworks \cite{penrose1989emperor,Friston2010,chalmers1995facing}. Traditional computational models reduce consciousness to neural processing, failing to explain the existence of subjective experience itself \cite{chalmers1995facing}. EntPTC presents a field-based alternative that preserves the essence of awareness while making it empirically measurable, directly addressing the persistent challenges of subjective experience and solipsism that have long characterized consciousness research.
+
+We propose a testable signature for consciousness as a fundamental field operating in the terahertz frequency range (0.1 to 10 THz), distinct from but interacting with gravitational and electromagnetic fields \cite{Jepsen2011,Zhang2021}. This approach confronts the problem of subjective experience by providing a mathematical framework that preserves the irreducible nature of qualia while making it empirically accessible. Importantly, EntPTC addresses solipsism by providing intersubjective validation through measurable THz/QEEG coherence patterns that can be independently verified across observers, establishing objective correlates of subjective experience.
+
+This framework addresses the persistent enigma of consciousness, often referred to as the “hard problem” \cite{chalmers1995facing}, by proposing that subjective experience arises through the recursive filtering of information across structured topological spaces. The theory builds on the empirical finding that grid cells in the medial entorhinal cortex operate on toroidal manifolds \cite{Hafting2005,Burak2009,Bush2015,Gardner2022}, extending this neurobiological basis into a comprehensive model of conscious representation across cognitive domains.
+
+EntPTC provides a mathematically rigorous and empirically testable approach to three central problems in consciousness research: (1) the hard problem of subjective experience \cite{chalmers1995facing}, (2) the measurement problem of distinguishing conscious from unconscious processing \cite{tononi2008consciousness}, and (3) the integration problem of unifying insights across multiple scales and disciplines \cite{tononi2016integrated,Jha2025Entropy,Lugten2024Entropy}.
+
+\textbf{Comparison with Existing Theories:} The EntPTC framework builds on and extends several established approaches to consciousness. Global Workspace Theory \cite{baars1988cognitive} proposes that consciousness emerges from the global broadcasting of information across distributed neural networks, providing a functional account of conscious access. However, GWT primarily addresses the “easy problems” of consciousness, the functional mechanisms, without tackling the hard problem of subjective experience itself.
+
+Integrated Information Theory \cite{tononi2008consciousness} quantifies consciousness through the integrated information $\Phi$ generated by a system, providing a mathematical means of measurement. While IIT offers valuable insights into the information-theoretic aspects of consciousness, it struggles to explain why integrated information should give rise to subjective experience rather than merely complex information processing.
+
+Quantum approaches to consciousness, particularly Orchestrated Objective Reduction \cite{Hameroff1996OrchOR,penrose1989emperor,hameroff2014consciousness}, suggest that consciousness emerges from quantum processes in neural microtubules. These theories posit that non-computable quantum mechanisms are required for consciousness, drawing on Gödel's incompleteness theorems \cite{godel1931formal} and quantum mechanics. However, quantum theories face significant challenges concerning decoherence in warm, noisy biological environments. EntPTC avoids these issues by operating at the classical field level while incorporating quantum-inspired mathematical structures through quaternionic dynamics, supported by recent experimental evidence \cite{Huang2022,Zhang2021} showing stable THz coherence in biological systems.
+
+The EntPTC framework distinguishes itself by offering a topological foundation that integrates the computational insights of classical theories with the non-classical features proposed by quantum approaches. By embedding conscious processes within a three-dimensional torus $\mathbb{T}^3$, the framework naturally captures the periodic and recursive characteristics of conscious experience while maintaining mathematical tractability. Unlike purely computational theories, EntPTC directly models the geometric organization of subjective experience, and unlike quantum theories, it operates at a level of description resilient to biological noise while still expressing non-classical dynamics through quaternionic structure.
+
+\subsection{Core Mechanisms}
+
+The EntPTC framework operates through three interconnected mechanisms that collectively generate and maintain conscious experience.

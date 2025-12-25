@@ -1,0 +1,10 @@
+STAGE A: Grid Cell Toroidal Geometry Extraction - Summary
+================================================================================
+
+Total grid cells analyzed: 17
+Cells with valid grid structure: 2
+
+Geometry-based invariants (mean ± std):
+ mean_phase_velocity: 6.2782 ± 0.7453
+ mean_curvature: 1.1716 ± 0.1473
+ phase_entropy: 5.9680 ± 0.0012

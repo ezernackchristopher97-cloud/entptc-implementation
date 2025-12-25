@@ -1,0 +1,38 @@
+{
+  "date": "2025-12-24",
+  "n_files": 5,
+  "n_success": 5,
+  "parameters": {
+    "target_fs": 160,
+    "lowcut": 0.5,
+    "highcut": 50.0,
+    "n_rois": 16
+  },
+  "results": [
+    {
+      "input": "/home/ubuntu/entptc-implementation/stage_c_datasets/ds004706_data/sub-LTP448/ses-0/eeg/sub-LTP448_ses-0_task-NiclsCourierReadOnly_eeg.bdf",
+      "output": "/home/ubuntu/entptc-implementation/data/dataset_set_3_ds004706/sub-LTP448_ses-0_task-SpatialNav_eeg.mat",
+      "success": true
+    },
+    {
+      "input": "/home/ubuntu/entptc-implementation/stage_c_datasets/ds004706_data/sub-LTP448/ses-2/eeg/sub-LTP448_ses-2_task-NiclsCourierReadOnly_eeg.bdf",
+      "output": "/home/ubuntu/entptc-implementation/data/dataset_set_3_ds004706/sub-LTP448_ses-2_task-SpatialNav_eeg.mat",
+      "success": true
+    },
+    {
+      "input": "/home/ubuntu/entptc-implementation/stage_c_datasets/ds004706_data/sub-LTP448/ses-3/eeg/sub-LTP448_ses-3_task-NiclsCourierReadOnly_eeg.bdf",
+      "output": "/home/ubuntu/entptc-implementation/data/dataset_set_3_ds004706/sub-LTP448_ses-3_task-SpatialNav_eeg.mat",
+      "success": true
+    },
+    {
+      "input": "/home/ubuntu/entptc-implementation/stage_c_datasets/ds004706_data/sub-LTP448/ses-4/eeg/sub-LTP448_ses-4_task-NiclsCourierReadOnly_eeg.bdf",
+      "output": "/home/ubuntu/entptc-implementation/data/dataset_set_3_ds004706/sub-LTP448_ses-4_task-SpatialNav_eeg.mat",
+      "success": true
+    },
+    {
+      "input": "/home/ubuntu/entptc-implementation/stage_c_datasets/ds004706_data/sub-LTP449/ses-3/eeg/sub-LTP449_ses-3_task-NiclsCourierReadOnly_eeg.bdf",
+      "output": "/home/ubuntu/entptc-implementation/data/dataset_set_3_ds004706/sub-LTP449_ses-3_task-SpatialNav_eeg.mat",
+      "success": true
+    }
+  ]
+}

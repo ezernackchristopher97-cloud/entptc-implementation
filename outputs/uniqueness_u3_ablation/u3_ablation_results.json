@@ -1,0 +1,59 @@
+{
+  "baseline_invariants": {
+    "theta1_phase_velocity": 0.010146145846135598,
+    "theta2_phase_velocity": 0.065712392914483,
+    "theta3_phase_velocity": 0.22919365670457054,
+    "theta1_phase_winding": 0.6272532353307074,
+    "theta2_phase_winding": 0.6764253468178523,
+    "theta3_phase_winding": 0.6721834389572706,
+    "theta1_trajectory_curvature": 7.951663247756316e-05,
+    "theta2_trajectory_curvature": 0.00618626879893828,
+    "theta3_trajectory_curvature": 0.009315272868046792
+  },
+  "ablation1_adjacency_randomization": {
+    "pass_per_invariant": {
+      "theta1_phase_velocity": false,
+      "theta2_phase_velocity": true,
+      "theta3_phase_velocity": true,
+      "theta1_phase_winding": true,
+      "theta2_phase_winding": true,
+      "theta3_phase_winding": true,
+      "theta1_trajectory_curvature": true,
+      "theta2_trajectory_curvature": true,
+      "theta3_trajectory_curvature": true
+    },
+    "n_pass": 8,
+    "n_total": 9
+  },
+  "ablation2_boundary_removal": {
+    "pass_per_invariant": {
+      "theta1_phase_velocity": false,
+      "theta2_phase_velocity": true,
+      "theta3_phase_velocity": false,
+      "theta1_phase_winding": true,
+      "theta2_phase_winding": true,
+      "theta3_phase_winding": true,
+      "theta1_trajectory_curvature": true,
+      "theta2_trajectory_curvature": true,
+      "theta3_trajectory_curvature": true
+    },
+    "n_pass": 7,
+    "n_total": 9
+  },
+  "ablation3_phase_scrambling": {
+    "pass_per_invariant": {
+      "theta1_phase_velocity": true,
+      "theta2_phase_velocity": true,
+      "theta3_phase_velocity": true,
+      "theta1_phase_winding": true,
+      "theta2_phase_winding": true,
+      "theta3_phase_winding": true,
+      "theta1_trajectory_curvature": true,
+      "theta2_trajectory_curvature": false,
+      "theta3_trajectory_curvature": true
+    },
+    "n_pass": 8,
+    "n_total": 9
+  },
+  "overall_pass": false
+}

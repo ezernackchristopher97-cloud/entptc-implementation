@@ -1,0 +1,38 @@
+PhysioNet Motor Movement Dataset - Download Log
+================================================================================
+Date: December 24, 2025
+Subjects: 15
+Files: 30
+================================================================================
+
+Downloaded files:
+ /home/ubuntu/datasets/physionet_motor/S001/S001R01.edf
+ /home/ubuntu/datasets/physionet_motor/S001/S001R02.edf
+ /home/ubuntu/datasets/physionet_motor/S002/S002R01.edf
+ /home/ubuntu/datasets/physionet_motor/S002/S002R02.edf
+ /home/ubuntu/datasets/physionet_motor/S003/S003R01.edf
+ /home/ubuntu/datasets/physionet_motor/S003/S003R02.edf
+ /home/ubuntu/datasets/physionet_motor/S004/S004R01.edf
+ /home/ubuntu/datasets/physionet_motor/S004/S004R02.edf
+ /home/ubuntu/datasets/physionet_motor/S005/S005R01.edf
+ /home/ubuntu/datasets/physionet_motor/S005/S005R02.edf
+ /home/ubuntu/datasets/physionet_motor/S006/S006R01.edf
+ /home/ubuntu/datasets/physionet_motor/S006/S006R02.edf
+ /home/ubuntu/datasets/physionet_motor/S007/S007R01.edf
+ /home/ubuntu/datasets/physionet_motor/S007/S007R02.edf
+ /home/ubuntu/datasets/physionet_motor/S008/S008R01.edf
+ /home/ubuntu/datasets/physionet_motor/S008/S008R02.edf
+ /home/ubuntu/datasets/physionet_motor/S009/S009R01.edf
+ /home/ubuntu/datasets/physionet_motor/S009/S009R02.edf
+ /home/ubuntu/datasets/physionet_motor/S010/S010R01.edf
+ /home/ubuntu/datasets/physionet_motor/S010/S010R02.edf
+ /home/ubuntu/datasets/physionet_motor/S011/S011R01.edf
+ /home/ubuntu/datasets/physionet_motor/S011/S011R02.edf
+ /home/ubuntu/datasets/physionet_motor/S012/S012R01.edf
+ /home/ubuntu/datasets/physionet_motor/S012/S012R02.edf
+ /home/ubuntu/datasets/physionet_motor/S013/S013R01.edf
+ /home/ubuntu/datasets/physionet_motor/S013/S013R02.edf
+ /home/ubuntu/datasets/physionet_motor/S014/S014R01.edf
+ /home/ubuntu/datasets/physionet_motor/S014/S014R02.edf
+ /home/ubuntu/datasets/physionet_motor/S015/S015R01.edf
+ /home/ubuntu/datasets/physionet_motor/S015/S015R02.edf

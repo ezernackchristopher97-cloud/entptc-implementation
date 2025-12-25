@@ -1,0 +1,212 @@
+Loading data...
+Data shape: (16, 96000)
+Sampling rate: 160.0 Hz
+Grid size: 4×4
+
+================================================================================
+U3: CAUSAL ABLATION TEST
+================================================================================
+
+Baseline (real data, real adjacency)...
+Baseline invariants:
+ theta1_phase_velocity: 0.010146
+ theta2_phase_velocity: 0.065712
+ theta3_phase_velocity: 0.229194
+ theta1_phase_winding: 0.627253
+ theta2_phase_winding: 0.676425
+ theta3_phase_winding: 0.672183
+ theta1_trajectory_curvature: 0.000080
+ theta2_trajectory_curvature: 0.006186
+ theta3_trajectory_curvature: 0.009315
+
+--------------------------------------------------------------------------------
+ABLATION 1: Degree-preserved adjacency randomization
+--------------------------------------------------------------------------------
+ Iteration 0/30
+ Iteration 10/30
+ Iteration 20/30
+
+Adjacency randomization results:
+ theta1_phase_velocity:
+ Baseline: 0.010146
+ Randomized: 0.010146 ± 0.000000
+ Effect size: 0.00
+ Pass (|d| > 0.5): ❌ NO
+ theta2_phase_velocity:
+ Baseline: 0.065712
+ Randomized: 0.065712 ± 0.000000
+ Effect size: 1.00
+ Pass (|d| > 0.5): ✅ YES
+ theta3_phase_velocity:
+ Baseline: 0.229194
+ Randomized: 0.229194 ± 0.000000
+ Effect size: 1.00
+ Pass (|d| > 0.5): ✅ YES
+ theta1_phase_winding:
+ Baseline: 0.627253
+ Randomized: 0.535123 ± 0.030250
+ Effect size: 3.05
+ Pass (|d| > 0.5): ✅ YES
+ theta2_phase_winding:
+ Baseline: 0.676425
+ Randomized: 0.573808 ± 0.026104
+ Effect size: 3.93
+ Pass (|d| > 0.5): ✅ YES
+ theta3_phase_winding:
+ Baseline: 0.672183
+ Randomized: 0.563842 ± 0.024432
+ Effect size: 4.43
+ Pass (|d| > 0.5): ✅ YES
+ theta1_trajectory_curvature:
+ Baseline: 0.000080
+ Randomized: 0.000080 ± 0.000000
+ Effect size: 1.00
+ Pass (|d| > 0.5): ✅ YES
+ theta2_trajectory_curvature:
+ Baseline: 0.006186
+ Randomized: 0.006186 ± 0.000000
+ Effect size: 1.00
+ Pass (|d| > 0.5): ✅ YES
+ theta3_trajectory_curvature:
+ Baseline: 0.009315
+ Randomized: 0.009315 ± 0.000000
+ Effect size: 1.00
+ Pass (|d| > 0.5): ✅ YES
+
+--------------------------------------------------------------------------------
+ABLATION 2: Boundary condition removal (torus→cylinder)
+--------------------------------------------------------------------------------
+ Iteration 0/30
+ Iteration 10/30
+ Iteration 20/30
+
+Boundary removal results:
+ theta1_phase_velocity:
+ Baseline: 0.010146
+ Cylinder: 0.010146 ± 0.000000
+ Effect size: 0.00
+ Pass (|d| > 0.5): ❌ NO
+ theta2_phase_velocity:
+ Baseline: 0.065712
+ Cylinder: 0.065712 ± 0.000000
+ Effect size: 1.02
+ Pass (|d| > 0.5): ✅ YES
+ theta3_phase_velocity:
+ Baseline: 0.229194
+ Cylinder: 0.229194 ± 0.000000
+ Effect size: 0.41
+ Pass (|d| > 0.5): ❌ NO
+ theta1_phase_winding:
+ Baseline: 0.627253
+ Cylinder: 0.580393 ± 0.054077
+ Effect size: 0.87
+ Pass (|d| > 0.5): ✅ YES
+ theta2_phase_winding:
+ Baseline: 0.676425
+ Cylinder: 0.619660 ± 0.043713
+ Effect size: 1.30
+ Pass (|d| > 0.5): ✅ YES
+ theta3_phase_winding:
+ Baseline: 0.672183
+ Cylinder: 0.614024 ± 0.043919
+ Effect size: 1.32
+ Pass (|d| > 0.5): ✅ YES
+ theta1_trajectory_curvature:
+ Baseline: 0.000080
+ Cylinder: 0.000080 ± 0.000000
+ Effect size: 1.12
+ Pass (|d| > 0.5): ✅ YES
+ theta2_trajectory_curvature:
+ Baseline: 0.006186
+ Cylinder: 0.006186 ± 0.000000
+ Effect size: 1.37
+ Pass (|d| > 0.5): ✅ YES
+ theta3_trajectory_curvature:
+ Baseline: 0.009315
+ Cylinder: 0.009315 ± 0.000000
+ Effect size: 1.46
+ Pass (|d| > 0.5): ✅ YES
+
+--------------------------------------------------------------------------------
+ABLATION 3: Phase-scrambled surrogates (matched PSD)
+--------------------------------------------------------------------------------
+ Iteration 0/30
+ Iteration 10/30
+ Iteration 20/30
+
+Phase scrambling results:
+ theta1_phase_velocity:
+ Baseline: 0.010146
+ Scrambled: 0.010173 ± 0.000045
+ Effect size: 0.60
+ Pass (|d| > 0.5): ✅ YES
+ theta2_phase_velocity:
+ Baseline: 0.065712
+ Scrambled: 0.067150 ± 0.000133
+ Effect size: 10.84
+ Pass (|d| > 0.5): ✅ YES
+ theta3_phase_velocity:
+ Baseline: 0.229194
+ Scrambled: 0.229595 ± 0.000224
+ Effect size: 1.80
+ Pass (|d| > 0.5): ✅ YES
+ theta1_phase_winding:
+ Baseline: 0.627253
+ Scrambled: 0.085028 ± 0.007080
+ Effect size: 76.58
+ Pass (|d| > 0.5): ✅ YES
+ theta2_phase_winding:
+ Baseline: 0.676425
+ Scrambled: 0.025936 ± 0.002825
+ Effect size: 230.22
+ Pass (|d| > 0.5): ✅ YES
+ theta3_phase_winding:
+ Baseline: 0.672183
+ Scrambled: 0.019413 ± 0.002462
+ Effect size: 265.18
+ Pass (|d| > 0.5): ✅ YES
+ theta1_trajectory_curvature:
+ Baseline: 0.000080
+ Scrambled: 0.000112 ± 0.000026
+ Effect size: 1.27
+ Pass (|d| > 0.5): ✅ YES
+ theta2_trajectory_curvature:
+ Baseline: 0.006186
+ Scrambled: 0.006181 ± 0.000058
+ Effect size: 0.09
+ Pass (|d| > 0.5): ❌ NO
+ theta3_trajectory_curvature:
+ Baseline: 0.009315
+ Scrambled: 0.009200 ± 0.000088
+ Effect size: 1.31
+ Pass (|d| > 0.5): ✅ YES
+
+================================================================================
+U3 OVERALL VERDICT
+================================================================================
+
+Ablation 1 (adjacency randomization): 8/9 invariants differ
+Ablation 2 (boundary removal): 7/9 invariants differ
+Ablation 3 (phase scrambling): 8/9 invariants differ
+
+U3 verdict: ❌ FAIL
+(Geometry-targeted ablations should be more sensitive than phase scrambling)
+Traceback (most recent call last):
+ File "/home/ubuntu/entptc-implementation/uniqueness_U3_causal_ablation.py", line 381, in <module>
+ json.dump(results, f, indent=2)
+ File "/usr/lib/python3.11/json/__init__.py", line 179, in dump
+ for chunk in iterable:
+ File "/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+ yield from _iterencode_dict(o, _current_indent_level)
+ File "/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+ yield from chunks
+ File "/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+ yield from chunks
+ File "/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+ yield from chunks
+ File "/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+ o = _default(o)
+ ^^^^^^^^^^^
+ File "/usr/lib/python3.11/json/encoder.py", line 180, in default
+ raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

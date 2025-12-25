@@ -1,0 +1,187 @@
+Loading data...
+Data shape: (16, 96000)
+Sampling rate: 160.0 Hz
+Grid size: 4×4
+
+================================================================================
+U1-FIX: NORMALIZATION-CORRECTED WINDING
+================================================================================
+
+Computing T³ coordinates for real data...
+
+Computing normalized winding for real data...
+
+Real data winding metrics:
+ theta1_raw_winding: 0.627253
+ theta1_path_length: 974.019855
+ theta1_angular_velocity: 0.010146
+ theta1_winding_per_path: 0.000644
+ theta1_winding_per_velocity: 61.821823
+ theta1_winding_per_time: 0.000007
+ theta2_raw_winding: 0.676425
+ theta2_path_length: 6308.324007
+ theta2_angular_velocity: 0.065712
+ theta2_winding_per_path: 0.000107
+ theta2_winding_per_velocity: 10.293726
+ theta2_winding_per_time: 0.000007
+ theta3_raw_winding: 0.672183
+ theta3_path_length: 22002.361850
+ theta3_angular_velocity: 0.229194
+ theta3_winding_per_path: 0.000031
+ theta3_winding_per_velocity: 2.932819
+ theta3_winding_per_time: 0.000007
+
+Generating 50 matched-spectrum surrogates...
+ Surrogate 0/50
+ Surrogate 20/50
+ Surrogate 40/50
+
+================================================================================
+U1-FIX RESULTS
+================================================================================
+
+theta1_raw_winding:
+ Real: 0.627253
+ Surrogate: 0.086976 ± 0.007468
+ Percentile: 100.0%
+ Effect size (Cohen's d): 72.35
+ Pass (extreme tail): ✅ YES
+
+theta1_path_length:
+ Real: 974.019855
+ Surrogate: 976.826883 ± 3.824534
+ Percentile: 18.0%
+ Effect size (Cohen's d): -0.73
+ Pass (extreme tail): ❌ NO
+
+theta1_angular_velocity:
+ Real: 0.010146
+ Surrogate: 0.010175 ± 0.000040
+ Percentile: 18.0%
+ Effect size (Cohen's d): -0.73
+ Pass (extreme tail): ❌ NO
+
+theta1_winding_per_path:
+ Real: 0.000644
+ Surrogate: 0.000089 ± 0.000008
+ Percentile: 100.0%
+ Effect size (Cohen's d): 73.20
+ Pass (extreme tail): ✅ YES
+
+theta1_winding_per_velocity:
+ Real: 61.821823
+ Surrogate: 8.547197 ± 0.727829
+ Percentile: 100.0%
+ Effect size (Cohen's d): 73.20
+ Pass (extreme tail): ✅ YES
+
+theta1_winding_per_time:
+ Real: 0.000007
+ Surrogate: 0.000001 ± 0.000000
+ Percentile: 100.0%
+ Effect size (Cohen's d): 72.35
+ Pass (extreme tail): ✅ YES
+
+theta2_raw_winding:
+ Real: 0.676425
+ Surrogate: 0.026120 ± 0.002670
+ Percentile: 100.0%
+ Effect size (Cohen's d): 243.54
+ Pass (extreme tail): ✅ YES
+
+theta2_path_length:
+ Real: 6308.324007
+ Surrogate: 6449.486407 ± 13.129991
+ Percentile: 0.0%
+ Effect size (Cohen's d): -10.75
+ Pass (extreme tail): ✅ YES
+
+theta2_angular_velocity:
+ Real: 0.065712
+ Surrogate: 0.067183 ± 0.000137
+ Percentile: 0.0%
+ Effect size (Cohen's d): -10.75
+ Pass (extreme tail): ✅ YES
+
+theta2_winding_per_path:
+ Real: 0.000107
+ Surrogate: 0.000004 ± 0.000000
+ Percentile: 100.0%
+ Effect size (Cohen's d): 248.71
+ Pass (extreme tail): ✅ YES
+
+theta2_winding_per_velocity:
+ Real: 10.293726
+ Surrogate: 0.388797 ± 0.039825
+ Percentile: 100.0%
+ Effect size (Cohen's d): 248.71
+ Pass (extreme tail): ✅ YES
+
+theta2_winding_per_time:
+ Real: 0.000007
+ Surrogate: 0.000000 ± 0.000000
+ Percentile: 100.0%
+ Effect size (Cohen's d): 243.54
+ Pass (extreme tail): ✅ YES
+
+theta3_raw_winding:
+ Real: 0.672183
+ Surrogate: 0.019215 ± 0.002233
+ Percentile: 100.0%
+ Effect size (Cohen's d): 292.37
+ Pass (extreme tail): ✅ YES
+
+theta3_path_length:
+ Real: 22002.361850
+ Surrogate: 22038.538941 ± 20.878289
+ Percentile: 4.0%
+ Effect size (Cohen's d): -1.73
+ Pass (extreme tail): ✅ YES
+
+theta3_angular_velocity:
+ Real: 0.229194
+ Surrogate: 0.229571 ± 0.000217
+ Percentile: 4.0%
+ Effect size (Cohen's d): -1.73
+ Pass (extreme tail): ✅ YES
+
+theta3_winding_per_path:
+ Real: 0.000031
+ Surrogate: 0.000001 ± 0.000000
+ Percentile: 100.0%
+ Effect size (Cohen's d): 293.12
+ Pass (extreme tail): ✅ YES
+
+theta3_winding_per_velocity:
+ Real: 2.932819
+ Surrogate: 0.083699 ± 0.009720
+ Percentile: 100.0%
+ Effect size (Cohen's d): 293.12
+ Pass (extreme tail): ✅ YES
+
+theta3_winding_per_time:
+ Real: 0.000007
+ Surrogate: 0.000000 ± 0.000000
+ Percentile: 100.0%
+ Effect size (Cohen's d): 292.37
+ Pass (extreme tail): ✅ YES
+
+Normalized metrics: 9/9 in extreme tail
+U1-FIX verdict: ✅ PASS
+Traceback (most recent call last):
+ File "/home/ubuntu/entptc-implementation/uniqueness_U1_FIX.py", line 282, in <module>
+ json.dump(results, f, indent=2)
+ File "/usr/lib/python3.11/json/__init__.py", line 179, in dump
+ for chunk in iterable:
+ File "/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+ yield from _iterencode_dict(o, _current_indent_level)
+ File "/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+ yield from chunks
+ File "/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+ yield from chunks
+ File "/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+ o = _default(o)
+ ^^^^^^^^^^^
+ File "/usr/lib/python3.11/json/encoder.py", line 180, in default
+ raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

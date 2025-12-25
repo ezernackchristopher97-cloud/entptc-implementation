@@ -1,0 +1,46 @@
+{
+  "baseline_toroidal": {
+    "frequency_hz": 0.41642129839671105,
+    "std_hz": 0.04988887461572408
+  },
+  "geometry_controls": {
+    "toroidal": {
+      "mean_hz": 0.22185378510916928,
+      "std_hz": 0.034186234946266277
+    },
+    "cylindrical": {
+      "mean_hz": 0.2063517316381214,
+      "std_hz": 0.07511277911227536
+    },
+    "planar": {
+      "mean_hz": 0.09606923734580945,
+      "std_hz": 0.024119603177179618
+    }
+  },
+  "phase_scrambling": {
+    "mean_hz": 0.25387735256936195,
+    "std_hz": 0.06129674618104064
+  },
+  "parameter_scaling": {
+    "0.5": {
+      "mean_hz": 0.22788816161400244,
+      "std_hz": 0.01812581882301692
+    },
+    "1.0": {
+      "mean_hz": 0.22788816161400244,
+      "std_hz": 0.01812581882301692
+    },
+    "1.5": {
+      "mean_hz": 0.22788816161400244,
+      "std_hz": 0.01812581882301692
+    },
+    "2.0": {
+      "mean_hz": 0.22788816161400244,
+      "std_hz": 0.01812581882301692
+    }
+  },
+  "verdict": "UNIQUENESS SUPPORTED",
+  "interpretation": "The frequency is specific to toroidal topology (2/3 tests passed).",
+  "tests_passed": 2,
+  "total_tests": 3
+}

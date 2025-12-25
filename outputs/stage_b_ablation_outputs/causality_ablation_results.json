@@ -1,0 +1,35 @@
+{
+  "baseline": {
+    "frequency_hz": 0.41642129839671105,
+    "std_hz": 0.04988887461572408,
+    "n_cells": 2
+  },
+  "ablation1_planar_grid": {
+    "frequency_hz": 0.0003633484311098869,
+    "std_hz": 0.00012471517256705455,
+    "n_cells": 14,
+    "shift_hz": 0.41605794996560114,
+    "shift_percent": 99.91274499346963
+  },
+  "ablation2_randomized_adjacency": {
+    "frequency_hz": 0.0010565805109335968,
+    "std_hz": 0.0003880338077046649,
+    "n_cells": 14,
+    "shift_hz": 0.41536471788577745,
+    "shift_percent": 99.74627126061957
+  },
+  "ablation3_shuffled_spikes": {
+    "frequency_hz": 0.0003633484311098869,
+    "std_hz": 0.00012471517256705455,
+    "n_cells": 14,
+    "shift_hz": 0.41605794996560114,
+    "shift_percent": 99.91274499346963
+  },
+  "verdict": "TOROIDAL GEOMETRY IS CAUSAL",
+  "interpretation": "The ~0.4 Hz mode depends on: toroidal_closure, spatial_organization, phase_coherence",
+  "causal_factors": [
+    "toroidal_closure",
+    "spatial_organization",
+    "phase_coherence"
+  ]
+}

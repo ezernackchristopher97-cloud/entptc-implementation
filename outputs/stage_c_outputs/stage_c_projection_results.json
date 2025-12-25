@@ -1,0 +1,83 @@
+{
+  "target_frequency": 0.41642129839671105,
+  "persistence_score": 2,
+  "verdict": "STRONG PERSISTENCE",
+  "results": [
+    {
+      "file": "S001_task-EyesClosed_eeg.mat",
+      "plv": 0.2524301493779151,
+      "envelope_correlation": 0.9729230280715768,
+      "cross_frequency_coupling": 0.013119413769437378,
+      "envelope_power": 2.950228434701495e+48
+    },
+    {
+      "file": "S001_task-EyesOpen_eeg.mat",
+      "plv": 0.9083002995104185,
+      "envelope_correlation": 0.9748816566895333,
+      "cross_frequency_coupling": 0.009097057303886161,
+      "envelope_power": 1.883771033206842e+49
+    },
+    {
+      "file": "S002_task-EyesClosed_eeg.mat",
+      "plv": 0.8986673981816107,
+      "envelope_correlation": 0.9707478303682107,
+      "cross_frequency_coupling": 0.008522366751640871,
+      "envelope_power": 6.083754020979724e+48
+    },
+    {
+      "file": "S002_task-EyesOpen_eeg.mat",
+      "plv": 0.9272253275253423,
+      "envelope_correlation": 0.9775358583784334,
+      "cross_frequency_coupling": 0.012787596684572333,
+      "envelope_power": 2.8741872994353444e+48
+    },
+    {
+      "file": "S003_task-EyesClosed_eeg.mat",
+      "plv": 0.9149852571023652,
+      "envelope_correlation": 0.9802306161180492,
+      "cross_frequency_coupling": 0.008584259527152242,
+      "envelope_power": 1.7780343255965716e+49
+    },
+    {
+      "file": "S003_task-EyesOpen_eeg.mat",
+      "plv": 0.9544239163973498,
+      "envelope_correlation": 0.9732866232145995,
+      "cross_frequency_coupling": 0.012517096089766847,
+      "envelope_power": 5.347055505980269e+49
+    },
+    {
+      "file": "S004_task-EyesClosed_eeg.mat",
+      "plv": 0.8725710441429799,
+      "envelope_correlation": 0.9809209060129561,
+      "cross_frequency_coupling": 0.007817886306796768,
+      "envelope_power": 1.6532362683335856e+48
+    },
+    {
+      "file": "S004_task-EyesOpen_eeg.mat",
+      "plv": 0.9039774747537788,
+      "envelope_correlation": 0.9806436146845153,
+      "cross_frequency_coupling": 0.009293054783398598,
+      "envelope_power": 1.1850759948566284e+49
+    },
+    {
+      "file": "S005_task-EyesClosed_eeg.mat",
+      "plv": 0.21647126086160232,
+      "envelope_correlation": 0.9682772760628708,
+      "cross_frequency_coupling": 0.006558785886716843,
+      "envelope_power": 1.4212788494164255e+49
+    },
+    {
+      "file": "S005_task-EyesOpen_eeg.mat",
+      "plv": 0.8818843754277821,
+      "envelope_correlation": 0.970475542927787,
+      "cross_frequency_coupling": 0.010458603174848828,
+      "envelope_power": 1.226719713026896e+48
+    }
+  ],
+  "summary": {
+    "mean_plv": 0.7730936503281145,
+    "mean_envelope_correlation": 0.9749922952528532,
+    "mean_cfc": 0.009875612027821688,
+    "mean_envelope_power": 1.309402828270444e+49
+  }
+}
